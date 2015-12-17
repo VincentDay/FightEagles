@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		615AC11D1C222B03003215BF /* eagles.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = eagles.jpeg; path = ../../eagles.jpeg; sourceTree = "<group>"; };
-		615AC1211C22334D003215BF /* 06 Gonna Fly Now.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "06 Gonna Fly Now.mp3"; path = "../../../Music/iTunes/iTunes Media/Music/Compilations/The Rocky Story/06 Gonna Fly Now.mp3"; sourceTree = "<group>"; };
+		615AC1211C22334D003215BF /* 06 Gonna Fly Now.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "06 Gonna Fly Now.mp3"; path = "../../../../Music/iTunes/iTunes Media/Music/Compilations/The Rocky Story/06 Gonna Fly Now.mp3"; sourceTree = "<group>"; };
 		619DBE111C21BFAA0091F279 /* Fight Eagles Fight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fight Eagles Fight.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		619DBE141C21BFAA0091F279 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		619DBE161C21BFAA0091F279 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -83,7 +83,6 @@
 		619DBE081C21BFA90091F279 = {
 			isa = PBXGroup;
 			children = (
-				615AC1211C22334D003215BF /* 06 Gonna Fly Now.mp3 */,
 				615AC11D1C222B03003215BF /* eagles.jpeg */,
 				619DBE131C21BFAA0091F279 /* Fight Eagles Fight */,
 				619DBE2A1C21BFAA0091F279 /* Fight Eagles FightTests */,
@@ -105,6 +104,7 @@
 		619DBE131C21BFAA0091F279 /* Fight Eagles Fight */ = {
 			isa = PBXGroup;
 			children = (
+				615AC1211C22334D003215BF /* 06 Gonna Fly Now.mp3 */,
 				619DBE141C21BFAA0091F279 /* AppDelegate.swift */,
 				619DBE161C21BFAA0091F279 /* FirstViewController.swift */,
 				619DBE181C21BFAA0091F279 /* SecondViewController.swift */,

@@ -19,7 +19,7 @@ class SecondViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let url = NSBundle.mainBundle().URLForResource("Gonna Fly Now", withExtension: "mp3")
+        let url = NSBundle.mainBundle().URLForResource("06 Gonna Fly Now", withExtension: "mp3")
         
         try! player = AVAudioPlayer(contentsOfURL: url!)
         player.prepareToPlay()
