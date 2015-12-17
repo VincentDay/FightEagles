@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--First-->
@@ -42,16 +43,44 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JHA-ZS-ONa">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="xrc-O0-tdS">
                                 <rect key="frame" x="258" y="250" width="127" height="30"/>
-                                <state key="normal" title="Fight Eagles Fight!"/>
-                                <connections>
-                                    <action selector="playSong:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="qJa-Tn-0Cx"/>
-                                    <action selector="playSound:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="nQw-x8-O7q"/>
-                                </connections>
-                            </button>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JHA-ZS-ONa">
+                                        <rect key="frame" x="0.0" y="0.0" width="127" height="30"/>
+                                        <state key="normal" title="Fight Eagles Fight!"/>
+                                        <connections>
+                                            <action selector="playSong:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="qJa-Tn-0Cx"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="JHA-ZS-ONa" firstAttribute="centerY" secondItem="xrc-O0-tdS" secondAttribute="centerY" id="2AA-lm-rLZ"/>
+                                    <constraint firstItem="JHA-ZS-ONa" firstAttribute="top" secondItem="xrc-O0-tdS" secondAttribute="top" id="4tc-jl-yyH"/>
+                                    <constraint firstItem="JHA-ZS-ONa" firstAttribute="centerX" secondItem="xrc-O0-tdS" secondAttribute="centerX" id="9P8-8j-PYx"/>
+                                    <constraint firstItem="JHA-ZS-ONa" firstAttribute="top" secondItem="xrc-O0-tdS" secondAttribute="top" id="EOX-oj-Azv"/>
+                                    <constraint firstItem="JHA-ZS-ONa" firstAttribute="leading" secondItem="xrc-O0-tdS" secondAttribute="leadingMargin" id="FFc-bO-Ixw"/>
+                                    <constraint firstAttribute="bottom" secondItem="JHA-ZS-ONa" secondAttribute="bottom" id="HZM-6r-iPY"/>
+                                    <constraint firstAttribute="bottom" secondItem="JHA-ZS-ONa" secondAttribute="bottom" id="Khc-0Z-PnG"/>
+                                    <constraint firstItem="JHA-ZS-ONa" firstAttribute="top" secondItem="xrc-O0-tdS" secondAttribute="top" id="N57-Rv-Hx1"/>
+                                    <constraint firstItem="JHA-ZS-ONa" firstAttribute="top" secondItem="xrc-O0-tdS" secondAttribute="topMargin" id="Qv0-Gp-eqP"/>
+                                    <constraint firstItem="JHA-ZS-ONa" firstAttribute="bottom" secondItem="xrc-O0-tdS" secondAttribute="bottomMargin" id="Qyo-em-FP4"/>
+                                    <constraint firstItem="JHA-ZS-ONa" firstAttribute="leading" secondItem="xrc-O0-tdS" secondAttribute="leading" id="Snl-qs-i43"/>
+                                    <constraint firstAttribute="trailing" secondItem="JHA-ZS-ONa" secondAttribute="trailing" id="V8E-Rs-RYv"/>
+                                    <constraint firstItem="JHA-ZS-ONa" firstAttribute="leading" secondItem="xrc-O0-tdS" secondAttribute="leading" id="b6k-yF-kRb"/>
+                                    <constraint firstItem="JHA-ZS-ONa" firstAttribute="trailing" secondItem="xrc-O0-tdS" secondAttribute="trailingMargin" id="bdY-x5-ZxI"/>
+                                    <constraint firstAttribute="trailing" secondItem="JHA-ZS-ONa" secondAttribute="trailing" id="bkF-2a-719"/>
+                                    <constraint firstItem="JHA-ZS-ONa" firstAttribute="leading" secondItem="xrc-O0-tdS" secondAttribute="leading" id="ds9-oU-7LB"/>
+                                    <constraint firstItem="JHA-ZS-ONa" firstAttribute="top" secondItem="xrc-O0-tdS" secondAttribute="top" id="lVy-wY-2dP"/>
+                                    <constraint firstItem="JHA-ZS-ONa" firstAttribute="leading" secondItem="xrc-O0-tdS" secondAttribute="leading" id="n7E-uX-BQ4"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xrc-O0-tdS" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leading" constant="258" id="caH-WD-SzC"/>
+                            <constraint firstItem="xrc-O0-tdS" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="230" id="xBy-ga-ZvO"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Second" image="second" id="cPa-gy-q4n"/>
                 </viewController>

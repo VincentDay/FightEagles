@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		615AC11E1C222B03003215BF /* eagles.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 615AC11D1C222B03003215BF /* eagles.jpeg */; };
-		615AC1221C22334D003215BF /* 06 Gonna Fly Now.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 615AC1211C22334D003215BF /* 06 Gonna Fly Now.mp3 */; };
+		618A989A1C223D4500840051 /* 06 Gonna Fly Now.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 618A98991C223D4500840051 /* 06 Gonna Fly Now.mp3 */; };
 		619DBE151C21BFAA0091F279 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619DBE141C21BFAA0091F279 /* AppDelegate.swift */; };
 		619DBE171C21BFAA0091F279 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619DBE161C21BFAA0091F279 /* FirstViewController.swift */; };
 		619DBE191C21BFAA0091F279 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619DBE181C21BFAA0091F279 /* SecondViewController.swift */; };
@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		615AC11D1C222B03003215BF /* eagles.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = eagles.jpeg; path = ../../eagles.jpeg; sourceTree = "<group>"; };
-		615AC1211C22334D003215BF /* 06 Gonna Fly Now.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "06 Gonna Fly Now.mp3"; path = "../../../../Music/iTunes/iTunes Media/Music/Compilations/The Rocky Story/06 Gonna Fly Now.mp3"; sourceTree = "<group>"; };
+		618A98991C223D4500840051 /* 06 Gonna Fly Now.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "06 Gonna Fly Now.mp3"; path = "../06 Gonna Fly Now.mp3"; sourceTree = "<group>"; };
 		619DBE111C21BFAA0091F279 /* Fight Eagles Fight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fight Eagles Fight.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		619DBE141C21BFAA0091F279 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		619DBE161C21BFAA0091F279 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -104,10 +104,10 @@
 		619DBE131C21BFAA0091F279 /* Fight Eagles Fight */ = {
 			isa = PBXGroup;
 			children = (
-				615AC1211C22334D003215BF /* 06 Gonna Fly Now.mp3 */,
 				619DBE141C21BFAA0091F279 /* AppDelegate.swift */,
 				619DBE161C21BFAA0091F279 /* FirstViewController.swift */,
 				619DBE181C21BFAA0091F279 /* SecondViewController.swift */,
+				618A98991C223D4500840051 /* 06 Gonna Fly Now.mp3 */,
 				619DBE1A1C21BFAA0091F279 /* Main.storyboard */,
 				619DBE1D1C21BFAA0091F279 /* Assets.xcassets */,
 				619DBE1F1C21BFAA0091F279 /* LaunchScreen.storyboard */,
@@ -240,7 +240,7 @@
 			files = (
 				615AC11E1C222B03003215BF /* eagles.jpeg in Resources */,
 				619DBE211C21BFAA0091F279 /* LaunchScreen.storyboard in Resources */,
-				615AC1221C22334D003215BF /* 06 Gonna Fly Now.mp3 in Resources */,
+				618A989A1C223D4500840051 /* 06 Gonna Fly Now.mp3 in Resources */,
 				619DBE1E1C21BFAA0091F279 /* Assets.xcassets in Resources */,
 				619DBE1C1C21BFAA0091F279 /* Main.storyboard in Resources */,
 			);
